@@ -1,0 +1,13 @@
+<% if (item.link){ %>
+  <% if (item.title){ %>
+    <div class="arttitle"><a href="" target="_blank"><%= item.title %></a></div>
+  <% } else { %>
+    <div class="arttitle"><a href="" target="_blank"><%= item.link %></a></div>
+  <% } %>
+<% } else { %>
+  <% if (index){ %>
+    <div class="arttitle"><a><%= item.title %></a></div>
+  <% } else { %>
+    <div class="arttitle"><%= item.title %></div>
+  <% } %>
+<% } %>

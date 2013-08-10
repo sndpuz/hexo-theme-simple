@@ -1,0 +1,15 @@
+<div>
+  <div">
+    <% if (item.photos.length){ %>
+      <% item.photos.forEach(function(photo){ %>
+        <img src="<%- photo %>">
+      <% }); %>
+    <% } else { %>
+      <img src="<%- item.photos %>">
+    <% } %>
+  </div>
+  <div>
+    <div></div>
+    <div></div>
+  </div>
+</div>

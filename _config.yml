@@ -1,0 +1,25 @@
+menu:
+  Archives: /archives
+
+widgets: 
+
+
+excerpt_link: Read More
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: 
+  pubid:
+  facebook: 
+  twitter: 
+  google: 
+  pinterest: 
+
+fancybox: true
+
+google_analytics:
+rss:

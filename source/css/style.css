@@ -1,0 +1,136 @@
+@font-face {
+font-family: SourceCodePro-Light;
+url(/fonts/SourceCodePro-Light.ttf);
+}  
+body{
+    font-family: tahoma, arial;
+}
+h1{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+.title, a:hover{
+    color: #000;
+}
+img{
+    width: 450px;
+    height: auto;
+    border: 2px solid #eee;
+    display: table;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-transition: border-color 0.2s ease;
+    margin-left:25px;
+}
+img:hover{
+    border-color: rgba(71, 174, 193, 0.5);
+}
+.container{
+    width: 550px;
+    margin: 50px auto;
+}
+.content{
+    font: 14px/1.6 tahoma, arial;
+    letter-spacing: 1.5px;
+    clear:both;
+    line-height: 30px;
+}
+code, pre{
+    font-family: SourceCodePro-Light;
+    letter-spacing: 0;
+}
+code{
+    background: #eee;
+    color: #666;
+    padding: 0 5px;
+    margin: 0 2px;
+    font-size: 13px;
+    border: 1px solid color-border;
+    border-radius: 4px;
+}
+pre{
+    background: #eee;
+    border: 1px solid color-border;
+    margin-top: 15px;
+    overflow: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+pre code{
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+.highlight{
+  background: #eee;
+  border: 1px solid color-border;
+  margin-top: 15px;
+  padding: 5px 7px;
+  border-radius: 5px;
+  text-shadow: 0 0 1px #fff;
+  line-height: 1.6;
+  overflow: auto;
+  position: relative;
+  font-size: 13px;
+}
+  .comment,
+  .template_comment,
+  .diff .header,
+  .doctype,
+  .pi,
+  .lisp .string,
+  .javadoc{
+    color: #93a1a1;
+    font-style: italic;
+  }
+.artfoot{
+    font-size: 13px;
+    letter-spacing: 0;
+}
+.artfoot a{
+    margin-right: 10px;
+}
+.time, .categories{
+    font-size: 14px;
+    display: inline;
+    float: right;
+}
+.categories{
+  margin-right: 20px;
+}
+.arttitle{
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    cursor: pointer;
+}
+footer{
+    font: 12px/1.5 tahoma, arial;
+}
+.button{
+    background: url(/img/top.png) no-repeat 15px 12px;
+    background-color: #888;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.button:hover{
+    background-color: #999;
+}

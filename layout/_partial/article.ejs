@@ -1,0 +1,31 @@
+<article>
+  <% if (item.photos){ %>
+    <%- partial('post/gallery') %>
+  <% } %>
+  <div>
+    <header>
+      <%- partial('post/title') %>
+              <% if (item.layout != 'page'){ %>
+        <time datetime="<%= item.date.toDate().toISOString() %>" class="time"><%= item.date.format(config.date_format) %></time>
+      <% } %>
+      <%- partial('post/category') %>
+    </header>
+    <div class="content" style="display:none;">
+      <% if (item.excerpt && index){ %>
+        <%- item.excerpt %>
+      <% } else { %>
+        <%- item.content %>
+      <% } %>
+      <div class="artfoot">
+      <hr />
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
