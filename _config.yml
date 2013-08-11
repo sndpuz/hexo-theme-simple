@@ -1,8 +1,6 @@
 menu:
   Archives: /archives
-
-widgets: 
-
+  Guestbook: /guestbook.html
 
 excerpt_link: Read More
 

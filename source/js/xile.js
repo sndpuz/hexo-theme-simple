@@ -7,8 +7,9 @@ for(i=0;i<atl.length;i++){
 }
 function showCon() {
     var con = this.parentNode.nextElementSibling;
-    if(con.style.display == "none")
+    if(con.style.display == "none"){
        con.style.display = "block";
+    }
     else con.style.display = "none";
 }
     function getScrollTop(){
